@@ -2,7 +2,7 @@ version: '3'
 services:
   server:
     build: ./server
-    image: mmbese/microservice:server
+    image: mmbese/cc_ex4:server
     ports:
       - "3000:3000"
     depends_on:
@@ -11,11 +11,11 @@ services:
       - product-price-service
   hello-world-service:
     build: ./hello-world-service
-    image: mmbese/microservice:hello
+    image: mmbese/cc_ex4:hello
   product-descp-service:
     build: ./product-descp-service
-    image: mmbese/microservice:productdescp
+    image: mmbese/cc_ex4:product-descp
   product-price-service:
     build: ./product-price-service
-    image: mmbese/microservice:productprice
+    image: mmbese/cc_ex4:product-price
 
