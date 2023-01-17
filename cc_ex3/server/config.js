@@ -12,7 +12,7 @@ module.exports = {
         'host': 'product-descp-service'
     },
     'product-price-service': {
-        'port' : 3000,
+        'port' : 9003,
         'host': 'product-price-service'
     },
 
